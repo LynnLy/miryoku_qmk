@@ -5,3 +5,4 @@
 
 #pragma once
 
+#define BOTH_SHIFTS_TURN_ON_CAPS_WORD
