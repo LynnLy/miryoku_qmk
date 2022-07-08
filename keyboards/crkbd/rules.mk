@@ -16,11 +16,12 @@ COMMAND_ENABLE = no         # Commands for debug and configuration
 SLEEP_LED_ENABLE = no       # Breathing sleep LED during USB suspend
 # if this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
 NKRO_ENABLE = yes           # USB Nkey Rollover
-BACKLIGHT_ENABLE = no       # Enable keyboard backlight functionality
-RGBLIGHT_ENABLE = no        # Enable keyboard RGB underglow
+BACKLIGHT_ENABLE = yes      # Enable keyboard backlight functionality
+RGBLIGHT_ENABLE = yes       # Enable keyboard RGB underglow
 AUDIO_ENABLE = no           # Audio output
 RGB_MATRIX_ENABLE = no
 RGB_MATRIX_DRIVER = WS2812
+VIA_ENABLE = yes
 
 # if firmware size over limit, try this option
 # LTO_ENABLE = yes
@@ -31,3 +32,5 @@ RGBLIGHT_SUPPORTED = yes
 RGB_MATRIX_SUPPORTED = yes
 
 LAYOUTS = split_3x5_3 split_3x6_3
+
+OLED_ENABLE = no
