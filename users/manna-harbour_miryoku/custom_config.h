@@ -6,3 +6,12 @@
 #pragma once
 
 #define BOTH_SHIFTS_TURN_ON_CAPS_WORD
+#define RGBLIGHT_SLEEP // if defined, the RGB lighting will be switched off when the host goes to sleep
+#define RGBLIGHT_SPLIT // If defined, synchronization functionality for split keyboards is added
+
+#define ENABLE_RGB_MATRIX_ALPHAS_MODS
+#define ENABLE_RGB_MATRIX_GRADIENT_UP_DOWN 	Enables RGB_MATRIX_GRADIENT_UP_DOWN
+#define ENABLE_RGB_MATRIX_GRADIENT_LEFT_RIGHT
+
+#define RGB_MATRIX_FRAMEBUFFER_EFFECTS
+#define ENABLE_RGB_MATRIX_SOLID_REACTIVE_SIMPLE
