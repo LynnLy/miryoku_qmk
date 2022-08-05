@@ -3,8 +3,10 @@
 
 CAPS_WORD_ENABLE = yes
 BACKLIGHT_ENABLE = no # For single color backlighting
-RGBLIGHT = no # RGB Underglow ONLY - not compatible with matrix
-VIA_ENABLE = no
+RGBLIGHT_ENABLE = no # RGB Underglow ONLY - not compatible with matrix
+VIA_ENABLE = yes
 
 RGB_MATRIX_ENABLE = yes # Per-key leds and underglow
 RGB_MATRIX_DRIVER = WS2812
+
+OLED_ENABLE = no
